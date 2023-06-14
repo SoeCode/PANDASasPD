@@ -29,3 +29,4 @@ def ehalcoolico(bebida):
 for produto in produtos:
     if ehalcoolico(produto):
         print(f' Enviar {produto} para o setor de bebidas alcóolicas.')
+#argumento simples
