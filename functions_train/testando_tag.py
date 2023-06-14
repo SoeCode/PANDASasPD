@@ -8,3 +8,4 @@ for i in range(5):
     nomes = input('nomes: ')
     nome.append(nomes)
 print(nome)
+#s
