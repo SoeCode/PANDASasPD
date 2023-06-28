@@ -4,10 +4,10 @@ descricao = (('Id', "<class 'int'>", None, 10, 10, 0, True), ('EmployeeName', "<
 
 import pandas as pd
 
-coluna = (item[0] for item in descricao)
+coluna = [item[0] for item in descricao]
 print(coluna)
 tabela = pd.DataFrame.from_records(informacoes, columns=coluna)
-display(tabela)
+#display(tabela)
 
 texto = 'Lista com nomes e cargos: '
 for nomes in informacoes:
