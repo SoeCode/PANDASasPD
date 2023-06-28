@@ -16,4 +16,4 @@ for nomes in informacoes:
     texto = (f'{texto} \n{nome}, Cargo: {cargo}')
 
 print(texto)
-#a
+
